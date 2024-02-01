@@ -1,0 +1,28 @@
+{
+  "name": "api-sonar-ci",
+  "version": "1.0.0",
+  "description": "Simple api made in node",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest --coverage --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afornagieri/node-api-sonar-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afornagieri/node-api-sonar-ci/issues"
+  },
+  "homepage": "https://github.com/afornagieri/node-api-sonar-ci#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
