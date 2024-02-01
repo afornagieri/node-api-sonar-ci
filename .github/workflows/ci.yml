@@ -1,8 +1,8 @@
 name: node-api-ci
-run-name: Build & Tests
+run-name: Building & Testing
 on: [push]
 jobs:
-  check-bats-version:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
