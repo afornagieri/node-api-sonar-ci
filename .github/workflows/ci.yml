@@ -1,5 +1,5 @@
 name: node-api-ci
-run-name: Building & Testing
+run-name: Building & Testing & Sonar
 on:
   pull_request:
     branches:
