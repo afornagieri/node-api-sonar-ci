@@ -1,4 +1,6 @@
 const welcomeController = require('../controllers/welcomeController');
+const goodByeController = require('../controllers/goodByeController');
+
 
 describe('Testes para welcomeController', () => {
   it('Deve retornar "Welcome!" para uma requisição válida', () => {

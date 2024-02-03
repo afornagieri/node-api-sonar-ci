@@ -1,4 +1,4 @@
-async function welcomeController (req, res) {
+async function goodByeController (req, res) {
     if (req.body.data == null || req.body.data == undefined) {
       return res.status(400).send("Missing body!");
     } else {
@@ -6,5 +6,5 @@ async function welcomeController (req, res) {
     }
   };
   
-  module.exports = welcomeController;
+  module.exports = goodByeController;
   
