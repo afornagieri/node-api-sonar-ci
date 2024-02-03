@@ -1,5 +1,6 @@
 const welcomeController = require('../controllers/welcomeController');
 const goodByeController = require('../controllers/goodByeController');
+const goodAfternoonController =  require('../controllers/goodAfternoonController');
 
 
 describe('Testes para welcomeController', () => {
